@@ -1,7 +1,0 @@
-# Fun side projects that showcase personality and skills
-projects:
-  - title: "Real2Sim2Star"
-    subtitle: "If robots can cross the sim2real gap, why not idols too?"
-    thumbnail: "/assets/dancing_project_new.mp4"
-    description: "I've always wanted to have insane dancing skills. Obviously I didn't end up as Kpop star, so I decided to make myself one (virtually). When Real2Sim2Real was all the rage, I had scanned in countless objects, but I had never tried scanning in humans. In this project, I scanned in a few of my friends, rigged the characters, and made them dance!"
-    selected: y
