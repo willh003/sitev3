@@ -1,6 +1,6 @@
-# raymondyu5.github.io
+# willhuey.com
 
-Personal research page for Raymond Yu. Plain static HTML/CSS — no build step, no
+Personal research page for Will Huey. Plain static HTML/CSS — no build step, no
 dependencies. GitHub Pages serves the files directly (`.nojekyll` disables Jekyll
 processing).
 
@@ -16,20 +16,6 @@ To add a publication, copy an existing `<article class="paper">` block in
 `assets/publications/`.
 
 To update news, add a `<li>` to the `<ul class="news">` list.
-
-## Structure
-
-```
-raymondyu5.github.io/
-├── index.html        # the page
-├── styles.css        # styles
-├── .nojekyll         # tell GitHub Pages to serve files as-is
-├── assets/
-│   ├── icon.png      # favicon
-│   ├── profile-pics/
-│   └── publications/ # paper teaser images/gifs
-└── googlef0696328b30b87db.html   # Google Search Console verification
-```
 
 ## Local preview
 
