@@ -1,198 +1,302 @@
 {
   "000061130032.jpg": {
     "date": "2024-07-12",
-    "label": "Exit 38"
+    "label": "Exit 38",
+    "width": 1800,
+    "height": 1800
   },
   "2592ADE4-1F9D-4962-95D9-334A8C52D486.jpg": {
     "date": "2023-07-07",
-    "label": "Lauterbrunnen"
+    "label": "Lauterbrunnen",
+    "width": 1800,
+    "height": 1800
   },
   "41d60d53-d3e2-4762-b828-e49b8b4fb36f.JPG": {
     "date": "2025-07-17",
-    "label": "Playing hooky from ICML"
+    "label": "Playing hooky from ICML",
+    "width": 1800,
+    "height": 1800
   },
   "546909BC-AF5B-46D4-93D5-8923DFA5CE8F.jpg": {
     "date": "2026-04-24",
-    "label": "Paris"
+    "label": "Paris",
+    "width": 1800,
+    "height": 1800
   },
   "8930AC53-0B0A-46C8-81FD-68638C43584B.JPG": {
     "date": "2022-08-15",
-    "label": "Wind River Range"
+    "label": "Wind River Range",
+    "width": 1800,
+    "height": 1800
   },
   "AD5EB763-FD52-4E64-AD35-AE3CF8BFFDAA_1_105_c.JPEG": {
     "date": "2021-07-28",
-    "label": "Ilulissat"
+    "label": "Ilulissat",
+    "width": 1800,
+    "height": 1191
   },
   "DSC_0522.jpg": {
     "date": "2025-05-12",
-    "label": "Thacher State Park"
+    "label": "Thacher State Park",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_0199.jpg": {
     "date": "2024-07-27",
-    "label": "Mt. Daniel"
+    "label": "Mt. Daniel",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_0685.jpg": {
     "date": "2025-05-17",
-    "label": "Grad week century around Cayuga Lake"
+    "label": "Grad week century around Cayuga Lake",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_0713.jpg": {
     "date": "2024-10-10",
-    "label": "Ithaca"
+    "label": "Ithaca",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_1574.jpg": {
     "date": "2025-02-17",
-    "label": "NY"
+    "label": "NY",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_1825.jpg": {
     "date": "2025-05-05",
-    "label": "Route 1"
+    "label": "Route 1",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_1934.jpg": {
     "date": "2024-07-14",
-    "label": "Crab fishing near Seattle"
+    "label": "Crab fishing near Seattle",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_2236.jpg": {
     "date": "2022-09-04",
-    "label": "Great Range Traverse"
+    "label": "Great Range Traverse",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_2294.jpg": {
     "date": "2025-06-04",
-    "label": "Scotland"
+    "label": "Scotland",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_2473.jpg": {
     "date": "2025-07-07",
-    "label": "Verdon"
+    "label": "Verdon",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_2580.jpg": {
     "date": "2025-06-10",
-    "label": "Evening in Cannes"
+    "label": "Evening in Cannes",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_2629.jpg": {
     "date": "2025-06-15",
-    "label": "Enø"
+    "label": "Enø",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_3044.jpg": {
     "date": "2025-07-27",
-    "label": "Olympic NP"
+    "label": "Olympic NP",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_3289.jpg": {
     "date": "2025-09-28",
-    "label": "Seattle"
+    "label": "Seattle",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_3598.jpg": {
     "date": "2025-12-06",
-    "label": "Vantage"
+    "label": "Vantage",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_4484.jpg": {
     "date": "2026-03-27",
-    "label": "UW"
+    "label": "UW",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_4625.jpg": {
     "date": "2023-06-05",
-    "label": "Enø"
+    "label": "Enø",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_4681.jpg": {
     "date": "2023-06-10",
-    "label": "København"
+    "label": "København",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_4769.jpg": {
     "date": "2026-04-12",
-    "label": "First trad lead. Montrose, CO"
+    "label": "First trad lead. Montrose, CO",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_5010.jpg": {
     "date": "2026-04-22",
-    "label": "Brugge aka Fairy Tale Land"
+    "label": "Brugge aka Fairy Tale Land",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_5313.jpg": {
     "date": "2023-10-01",
-    "label": "26.2 at the Wineglass"
+    "label": "26.2 at the Wineglass",
+    "width": 1563,
+    "height": 1561
   },
   "IMG_5862.jpg": {
     "date": "2026-06-05",
-    "label": "Maasai Mara"
+    "label": "Maasai Mara",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_5928.jpg": {
     "date": "2026-06-05",
-    "label": "Maasai Mara"
+    "label": "Maasai Mara",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_5962.jpg": {
     "date": "2023-08-16",
-    "label": "Switzerland"
+    "label": "Switzerland",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_5968.jpg": {
     "date": "2026-06-05",
-    "label": "Just like a house cat"
+    "label": "Just like a house cat",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_6421.jpg": {
     "date": "2023-10-23",
-    "label": "Average evening in Ithaca"
+    "label": "Average evening in Ithaca",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_6646.jpg": {
     "date": "2026-07-30",
-    "label": "Fording Vallecito Creek"
+    "label": "Fording Vallecito Creek",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_6698.jpg": {
     "date": "2026-07-01",
-    "label": "Chicago Basin"
+    "label": "Chicago Basin",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_6767.jpg": {
     "date": "2026-07-02",
-    "label": "Eolus Ridge"
+    "label": "Eolus Ridge",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_6996.jpg": {
     "date": "2026-07-10",
-    "label": "RMNP"
+    "label": "RMNP",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_7072.jpg": {
     "date": "2026-07-13",
-    "label": "Mt. Bluesky"
+    "label": "Mt. Bluesky",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_7141.jpg": {
     "date": "2026-07-15",
-    "label": "Unknown climber on Samsara, 5.13a"
+    "label": "Unknown climber on Samsara, 5.13a",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_7317.jpg": {
     "date": "2026-07-18",
-    "label": "Packing up for the decalibron"
+    "label": "Packing up for the decalibron",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_7574.JPG": {
     "date": "2026-08-13",
-    "label": "Clear Creek Canyon"
+    "label": "Clear Creek Canyon",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_7716.jpg": {
     "date": "2026-08-19",
-    "label": "Alaska"
+    "label": "Alaska",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_7728.jpg": {
     "date": "2026-08-19",
-    "label": "Alaska"
+    "label": "Alaska",
+    "width": 1800,
+    "height": 1350
   },
   "IMG_7919.jpg": {
     "date": "2026-08-30",
-    "label": "Unknown climbers on West Point Crack, 5.8 R"
+    "label": "Unknown climbers on West Point Crack, 5.8 R",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_8299.jpg": {
     "date": "2024-04-15",
-    "label": "Egypt"
+    "label": "Egypt",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_9031_Original.jpg": {
     "date": "2025-01-05",
-    "label": "RMNP"
+    "label": "RMNP",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_9692.jpg": {
     "date": "2024-06-18",
-    "label": "UW"
+    "label": "UW",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_9709.JPG": {
     "date": "2024-05-11",
-    "label": "Dyrparken"
+    "label": "Dyrparken",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_9755.jpg": {
     "date": "2024-06-29",
-    "label": "Enchantment Traverse"
+    "label": "Enchantment Traverse",
+    "width": 1800,
+    "height": 1800
   },
   "IMG_9857.jpg": {
     "date": "2024-06-29",
-    "label": "King of the mountain"
+    "label": "King of the mountain",
+    "width": 1800,
+    "height": 1800
+  },
+  "IMG_7243.jpg": {
+    "date": "2024-01-21",
+    "label": "Fog over Copenhagen",
+    "width": 1800,
+    "height": 1350
   }
 }

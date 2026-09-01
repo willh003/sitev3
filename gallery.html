@@ -38,9 +38,10 @@
     </header>
 
     <!--
-      To add a photo: drop the image file in assets/gallery/, then add
-      an entry for it to gallery-data.json with its date (YYYY-MM-DD)
-      and a short label. The grid below is built from that file.
+      To add a photo, run from the repo root:
+        ./add-photo.py path/to/photo.jpg "Label" [YYYY-MM-DD]
+      This resizes the image, keeps the original in .originals/, and
+      adds it to gallery-data.json. The grid below is built from that file.
     -->
     <div class="gallery" id="gallery"></div>
 
@@ -55,7 +56,14 @@
       .then(function (res) { return res.json(); })
       .then(function (data) {
         var entries = Object.keys(data).map(function (filename) {
-          return { filename: filename, date: data[filename].date, label: data[filename].label };
+          var entry = data[filename];
+          return {
+            filename: filename,
+            date: entry.date,
+            label: entry.label,
+            width: entry.width,
+            height: entry.height
+          };
         });
 
         for (var i = entries.length - 1; i > 0; i--) {
@@ -76,6 +84,8 @@
           img.src = 'assets/gallery/' + entry.filename;
           img.alt = entry.label;
           img.loading = 'lazy';
+          img.width = entry.width;
+          img.height = entry.height;
 
           var overlay = document.createElement('div');
           overlay.className = 'photo-overlay';
