@@ -132,6 +132,10 @@ h2 {
 .socials a:hover { color: var(--accent); }
 .socials .dot { color: var(--line); margin: 0 8px; }
 
+.gallery-link { margin: 8px 0 0; font-size: 0.92rem; font-weight: 500; }
+.gallery-link a { color: var(--body); }
+.gallery-link a:hover { color: var(--accent); }
+
 /* ---------- Bio ---------- */
 .lede {
   font-size: 1.16rem;

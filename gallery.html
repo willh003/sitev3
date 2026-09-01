@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Photo Gallery — William Pinstrup Huey</title>
+  <meta name="description" content="Photo gallery — William Huey.">
+  <meta name="author" content="William Huey">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Photo Gallery — William Huey" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://willhuey.com/gallery.html" />
+  <meta property="og:site_name" content="William Huey" />
+  <link rel="canonical" href="https://willhuey.com/gallery.html">
+
+  <link rel="icon" type="image/png" href="assets/profile-pics/robotree.png?v=2026">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6MWGNLJ10"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T6MWGNLJ10');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body class="gallery-page">
+  <div class="gallery-wrap">
+
+    <header class="gallery-header">
+      <h1></h1>
+      <a class="gallery-back" href="index.html">← Back to the lab</a>
+    </header>
+
+    <!--
+      To add a photo: drop the image file in assets/gallery/, then add
+      an entry for it to gallery-data.json with its date (YYYY-MM-DD)
+      and a short label. The grid below is built from that file.
+    -->
+    <div class="gallery" id="gallery"></div>
+
+    <footer>
+      <p>William Pinstrup Huey · wph52 [at] cs.washington.edu</p>
+    </footer>
+
+  </div>
+
+  <script>
+    fetch('gallery-data.json')
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        var entries = Object.keys(data).map(function (filename) {
+          return { filename: filename, date: data[filename].date, label: data[filename].label };
+        });
+
+        for (var i = entries.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = entries[i]; entries[i] = entries[j]; entries[j] = tmp;
+        }
+
+        var gallery = document.getElementById('gallery');
+        entries.forEach(function (entry) {
+          var monthYear = new Date(entry.date + 'T00:00:00')
+            .toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+
+          var figure = document.createElement('figure');
+          figure.className = 'photo';
+          figure.tabIndex = 0;
+
+          var img = document.createElement('img');
+          img.src = 'assets/gallery/' + entry.filename;
+          img.alt = entry.label;
+          img.loading = 'lazy';
+
+          var overlay = document.createElement('div');
+          overlay.className = 'photo-overlay';
+
+          var dateEl = document.createElement('span');
+          dateEl.className = 'photo-date';
+          dateEl.textContent = monthYear;
+
+          var labelEl = document.createElement('span');
+          labelEl.className = 'photo-label';
+          labelEl.textContent = entry.label;
+
+          overlay.appendChild(dateEl);
+          overlay.appendChild(labelEl);
+          figure.appendChild(img);
+          figure.appendChild(overlay);
+          gallery.appendChild(figure);
+        });
+      });
+  </script>
+</body>
+</html>
