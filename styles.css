@@ -4,7 +4,7 @@
    ============================================================ */
 
 :root {
-  --bg:      linear-gradient(160deg, #eef7ea 0%, #cfe7c9 45%, #9bcc9c 100%);
+  --bg:      #fdf8ec;
   --card:    #fdf8ec;
   --ink:     #16181d;
   --body:    #3c4048;
@@ -22,7 +22,6 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background: var(--bg);
-  background-attachment: fixed;
   color: var(--body);
   font-family: var(--sans);
   font-size: 17px;
@@ -40,15 +39,9 @@ strong { font-weight: 600; color: var(--ink); }
 
 /* ---------- Layout ---------- */
 .wrap {
-  max-width: 720px;
-  margin: 44px auto;
-  padding: 4px 52px 60px;
-  background: rgba(253, 248, 236, 0.92);
-  backdrop-filter: blur(14px) saturate(140%);
-  -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border: 1px solid rgba(253, 248, 236, 0.7);
-  border-radius: 20px;
-  box-shadow: 0 24px 60px rgba(15, 50, 20, 0.14), 0 2px 10px rgba(15, 50, 20, 0.06);
+  max-width: 1040px;
+  margin: 12px auto 44px;
+  padding: 0 64px 60px;
 }
 
 /* ---------- Entrance ---------- */
@@ -70,7 +63,7 @@ footer { animation-delay: 0.32s; }
 }
 
 section {
-  padding: 40px 0;
+  padding: 31px 0;
   border-top: 1px solid var(--line);
 }
 #bio { border-top: none; }
@@ -82,7 +75,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--muted);
-  margin: 0 0 28px;
+  margin: 0 0 14px;
 }
 
 /* ---------- Header ---------- */
@@ -90,7 +83,7 @@ h2 {
   display: flex;
   align-items: center;
   gap: 32px;
-  padding: 52px 0 16px;
+  padding: 20px 0 16px;
 }
 .avatar {
   width: 150px;
@@ -142,7 +135,7 @@ h2 {
   line-height: 1.62;
   color: var(--ink);
 }
-#bio { padding-top: 44px; }
+#bio { padding-top: 26px; }
 #bio a, .lede a { border-bottom: 1px solid rgba(1,113,4,0.28); }
 #bio a:hover, .lede a:hover { border-color: var(--accent); }
 
@@ -229,9 +222,18 @@ h2 {
 
 .authors { margin: 0 0 3px; font-size: 0.92rem; color: var(--body); line-height: 1.5; }
 .venue { margin: 0 0 10px; font-size: 0.9rem; color: var(--muted); }
+.venue-highlight {
+  display: inline-block;
+  padding: 3px 10px;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(1, 113, 4, 0.07);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+}
 .eq { color: var(--accent); font-weight: 600; }
 .pub-note {
-  margin: -16px 0 24px;
+  margin: -6px 0 6px;
   font-size: 0.82rem;
   color: var(--muted);
 }
